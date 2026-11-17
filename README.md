@@ -106,11 +106,14 @@ The repository covers 13 core OpenSAF Programmer's Reference documents:
 
 #### Phase 4: Modularization & Document Splitting
 - [ ] **Split oversized documents**: Break down large monolithic files into manageable chapters:
-  - [ ] `OpenSAF_IMMSv_PR.md` (5,575 lines) $\rightarrow$ `architecture.md`, `api_reference.md`, `configuration.md`
-  - [ ] `OpenSAF_AMF_PR.md` (2,673 lines) $\rightarrow$ `architecture.md`, `api_reference.md`, `configuration.md`
+  - [ ] `OpenSAF_IMMSv_PR.md` (4,998 lines) $\rightarrow$ `architecture.md`, `api_reference.md`, `configuration.md`
+  - [ ] `OpenSAF_AMF_PR.md` (2,091 lines) $\rightarrow$ `architecture.md`, `api_reference.md`, `configuration.md`
 - [ ] **Generate quick-reference cheatsheets**: Create concise tables for API signatures, return codes, and IMM class definitions for fast developer lookup and LLM context efficiency.
+- [ ] **Logical content streamlining & pruning**: Enhance the logical progression of each document and prune tangential, obsolete, or non-essential sections with careful technical judgment (strictly preserving all functional API definitions, configuration attributes, and core architecture semantics).
 
 #### Phase 5: Verification & Quality Assurance
 - [ ] **Automated linting**: Run `markdownlint` across all documents to ensure syntax compliance.
 - [ ] **Content preservation check**: Validate that no functional API definitions or parameters were lost during the reduction process.
-# saf-reference-note
+
+#### Phase 6: Continuous Community Sync & Maintenance
+- [ ] **Upstream community synchronization**: Establish a recurring tracking process to monitor OpenSAF upstream releases, security patches, and specification revisions, keeping this documentation continuously updated with the latest community versions.
